@@ -16,7 +16,7 @@
 ~~~R
  install.packages("devtools")
  library(devtools)
- install_github("schifferm/ILOVEHS/ILOVEHEARTHSTONE")
+ install_github("schifferm/ILOVEHS/ILOVEHEARTHSTONE",force=TRUE)
  library(ILOVEHEARTHSTONE)
 ~~~
 接著就可以使用祕法飛彈來模擬了，假設對面英雄滿血，並且場上站了2血與3血怪各一隻，
