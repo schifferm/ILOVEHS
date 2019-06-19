@@ -70,4 +70,4 @@
 
 [秘法飛彈](https://playhearthstone.com/zh-tw/cards/564-arcane-missiles)
 
-### M062040007
+
