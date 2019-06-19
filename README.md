@@ -1,4 +1,4 @@
-#### I Love Hearthstone :)
+#### I Love Hearthstone 
 ============
 
 這是一個幫你計算在爐石戰記這款遊戲中，發生隨機事件的機率結果。
