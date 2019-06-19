@@ -7,23 +7,34 @@
 #' This is a generic function: A mechanism similar to arcane missiles
 #' uses this function to calculate probabilities.
 #'
+#'
 #' @param enemyHP Numeric, number of enemies on the field.Default is `c(3,1,1)`.
+#'
 #' @param damage Numeric, damage caused by each one.Default is 1.
+#'
 #' @param times Numeric, repeat times.Default is 3.
+#'
 #' @param n Simulation times,default is 10000.
 #'
+#' @export
 #' @return If all inputs are integer and logical, then the output
 #'   will be an probability.
-#' @examples
-#' #ArcaneMissiles(c(3,1,1),1,3)
 #'
+#' @examples
+#'
+#'
+#'
+#' #ArcaneMissiles(c(3,1,1),1,3)
+#' #        3      1      1
+#' #[1,] 0.96 0.2167 0.2176
 #'
 #'
 #' \dontrun{
 #' #ArcaneMissiles(enemyHP=c(3,1,1),times=6)
 #' }
 #'
-#'
+#' @references https://playhearthstone.com/zh-tw/cards
+#' @author M062040007
 
 ArcaneMissiles<-function(enemyHP=c(3,1,1),damage = 1,times = 3,n=10000){
   resdata<-matrix(0,nrow = n,ncol = length(enemyHP))

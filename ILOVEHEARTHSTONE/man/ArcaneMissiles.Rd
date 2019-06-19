@@ -29,13 +29,22 @@ This is a generic function: A mechanism similar to arcane missiles
 uses this function to calculate probabilities.
 }
 \examples{
-#ArcaneMissiles(c(3,1,1),1,3)
 
+
+
+#ArcaneMissiles(c(3,1,1),1,3)
+#        3      1      1
+#[1,] 0.96 0.2167 0.2176
 
 
 \dontrun{
 #ArcaneMissiles(enemyHP=c(3,1,1),times=6)
 }
 
-
+}
+\references{
+https://playhearthstone.com/zh-tw/cards
+}
+\author{
+M062040007
 }
